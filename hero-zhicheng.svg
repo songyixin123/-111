@@ -1,0 +1,55 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="180" y1="120" x2="1020" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7EE787" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <circle cx="330" cy="220" r="170" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="900" cy="210" r="150" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="760" cy="540" r="240" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- Rails -->
+  <g opacity="0.95">
+    <path d="M140 520 C330 465, 520 448, 1060 418" stroke="rgba(255,255,255,0.14)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M140 572 C330 520, 520 502, 1060 472" stroke="rgba(255,255,255,0.14)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M160 546 C370 498, 560 485, 1040 455" stroke="rgba(255,255,255,0.08)" stroke-width="6" stroke-dasharray="10 14" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cart body -->
+  <g>
+    <path d="M510 360 C510 328, 536 302, 568 302 H806 C838 302, 864 328, 864 360 V424 C864 456, 838 482, 806 482 H568 C536 482, 510 456, 510 424 Z"
+      fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+
+    <!-- Sensor pod -->
+    <path d="M612 288 C612 266, 630 248, 652 248 H736 C758 248, 776 266, 776 288 V308 H612 Z"
+      fill="rgba(88,166,255,0.18)" stroke="rgba(88,166,255,0.45)" stroke-width="2"/>
+    <circle cx="656" cy="292" r="10" fill="rgba(255,255,255,0.55)"/>
+    <circle cx="730" cy="292" r="10" fill="rgba(255,255,255,0.55)"/>
+
+    <!-- Wheels -->
+    <g>
+      <circle cx="585" cy="482" r="32" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+      <circle cx="585" cy="482" r="12" fill="rgba(126,231,135,0.30)"/>
+
+      <circle cx="790" cy="482" r="32" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+      <circle cx="790" cy="482" r="12" fill="rgba(126,231,135,0.30)"/>
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="rgba(255,255,255,0.90)">
+    <text x="70" y="110" font-size="30" font-weight="800">zÎžŒ¤</text>
+    <text x="70" y="150" font-size="16" fill="rgba(255,255,255,0.70)">hS¢$ÀKf · zýáÀï¤Ø¥J</text>
+  </g>
+</svg>
+
