@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>研究方向｜智城实验室</title>
+    <meta name="description" content="智城实验室研究方向：多源感知、边缘智能、缺陷定位、鲁棒性工程、数据闭环与评估体系。" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body data-page="research">
+    <header class="topbar">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="./index.html" aria-label="Home">
+            <span class="dot" aria-hidden="true"></span>
+            <span>
+              智城实验室
+              <small>Research · Methods & roadmap</small>
+            </span>
+          </a>
+          <div class="navlinks" role="navigation" aria-label="Primary">
+            <a class="pill" data-nav="home" href="./index.html">首页</a>
+            <a class="pill" data-nav="about" href="./about.html">关于</a>
+            <a class="pill" data-nav="project" href="./project.html">项目</a>
+            <a class="pill" data-nav="research" href="./research.html">研究方向</a>
+            <a class="pill" data-nav="cooperation" href="./cooperation.html">合作与价值</a>
+            <a class="pill" data-nav="contact" href="./contact.html">联系</a>
+            <a class="cta" href="./contact.html">交流合作</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="heroGrid">
+            <div>
+              <div class="kicker">
+                技术路线（适合答辩 Q&A）
+                <code>鲁棒性 · 可解释 · 可验收</code>
+              </div>
+              <h1>从“能跑”到“可信”，从“结果”到“闭环”</h1>
+              <p>
+                我们的研究关注点不是单点模型，而是完整的工程链路：数据质控、智能识别、定位融合、分级策略、报告交付与持续迭代。
+                这样才能在真实工况下稳定输出可验收结果。
+              </p>
+              <div class="heroActions">
+                <a class="cta" href="#areas">方向概览</a>
+                <a class="btn" href="#qa">答辩高频问题</a>
+              </div>
+            </div>
+            <aside class="heroCard">
+              <div class="media">
+                <img src="./img/hero-zhicheng.svg" alt="研究方向示意图（占位）" />
+              </div>
+              <div class="meta">
+                <div class="metric">
+                  <b>多源感知</b>
+                  <span>减少单一传感器失效风险</span>
+                </div>
+                <div class="metric">
+                  <b>边缘推理</b>
+                  <span>现场实时/准实时告警</span>
+                </div>
+                <div class="metric">
+                  <b>定位融合</b>
+                  <span>把告警映射到里程/坐标</span>
+                </div>
+                <div class="metric">
+                  <b>数据闭环</b>
+                  <span>复核反馈驱动持续改进</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="areas">
+        <div class="container">
+          <h2>研究方向概览</h2>
+          <p class="lead">每个方向都对应“可交付”的工程目标：更稳定、更可信、更易验收。</p>
+          <div class="grid2">
+            <div class="card">
+              <h3>多源感知与在线质控</h3>
+              <p>对光照、反光、粉尘、振动等工况做在线质量评估，降低脏数据导致的误报。</p>
+              <div class="badgeRow">
+                <span class="badge">DQ</span>
+                <span class="badge">鲁棒性</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>缺陷识别与可解释证据链</h3>
+              <p>输出“位置 + 证据 + 置信度/等级”，让结果可复核、可审计，减少黑箱质疑。</p>
+              <div class="badgeRow">
+                <span class="badge">Evidence</span>
+                <span class="badge">Explainable</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>定位融合与时空对齐</h3>
+              <p>利用里程计/编码器/时间戳对齐，把告警映射到里程或坐标，支撑复检与处置。</p>
+              <div class="badgeRow">
+                <span class="badge">Localization</span>
+                <span class="badge">Sync</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>边缘智能与部署优化</h3>
+              <p>在小车侧完成关键推理与筛查，必要时云端复核与训练，兼顾时延与可维护性。</p>
+              <div class="badgeRow">
+                <span class="badge">Edge AI</span>
+                <span class="badge">MLOps</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>分级策略与误报治理</h3>
+              <p>结合多证据与规则/模型策略进行分级，降低“全靠阈值”的不稳定性。</p>
+              <div class="badgeRow">
+                <span class="badge">Grading</span>
+                <span class="badge">False Alarm</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>评估体系与测试集构建</h3>
+              <p>明确口径：误报/漏报、定位精度、速度、稳定性，并保留可复现的测试数据与流程。</p>
+              <div class="badgeRow">
+                <span class="badge">Benchmark</span>
+                <span class="badge">验收</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="qa">
+        <div class="container">
+          <div class="split">
+            <div class="card">
+              <h2 style="margin-top:0">答辩高频问题（你们可以按这套逻辑回答）</h2>
+              <ul class="list">
+                <li><b>为什么比人工更可靠？</b> 在线质控 + 多证据交叉验证 + 证据链可复核。</li>
+                <li><b>误报怎么控制？</b> 分级策略 + 复核闭环 + 持续迭代优化口径。</li>
+                <li><b>怎么验收？</b> 明确指标口径、测试集规模、复核流程与报告模板。</li>
+                <li><b>怎么规模化？</b> 标准化流程与数据结构，降低复制成本。</li>
+              </ul>
+            </div>
+            <div class="callout">
+              <h3>把技术讲成商业语言</h3>
+              <p>
+                技术目标最终要落到“成本与风险”上：更高覆盖、更少人工筛查、更低返工、更可追溯的闭环，
+                才能让客户持续买单并在多线路复制。
+              </p>
+              <div class="badgeRow">
+                <span class="badge">降本</span>
+                <span class="badge">增效</span>
+                <span class="badge">控险</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div>上一页 <a href="./project.html">核心项目</a> · 下一页 <a href="./cooperation.html">合作与价值</a></div>
+          <div>提示：把你们“真实用到的传感器/算法”替换进去会更可信。</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+

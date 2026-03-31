@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>核心项目｜智城实验室</title>
+    <meta name="description" content="智城实验室核心项目：轨道探伤检测小车，产品形态、流程、可交付物与参数模板。" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body data-page="project">
+    <header class="topbar">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="./index.html" aria-label="Home">
+            <span class="dot" aria-hidden="true"></span>
+            <span>
+              智城实验室
+              <small>Project · Rail inspection cart</small>
+            </span>
+          </a>
+          <div class="navlinks" role="navigation" aria-label="Primary">
+            <a class="pill" data-nav="home" href="./index.html">首页</a>
+            <a class="pill" data-nav="about" href="./about.html">关于</a>
+            <a class="pill" data-nav="project" href="./project.html">项目</a>
+            <a class="pill" data-nav="research" href="./research.html">研究方向</a>
+            <a class="pill" data-nav="cooperation" href="./cooperation.html">合作与价值</a>
+            <a class="pill" data-nav="contact" href="./contact.html">联系</a>
+            <a class="cta" href="./contact.html">索取样例报告</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="heroGrid">
+            <div>
+              <div class="kicker">
+                核心项目
+                <code>车体平台 · 多源采集 · 边缘智能</code>
+              </div>
+              <h1>轨道探伤检测小车</h1>
+              <p>
+                我们将探伤任务产品化为一套标准流程：<b>采集 → 识别 → 定位 → 分级 → 报告</b>。
+                小车化形态使得部署更灵活，结果形态更“可交付”，适合试点与规模化复制。
+              </p>
+              <div class="heroActions">
+                <a class="cta" href="#deliver">可交付物</a>
+                <a class="btn" href="#workflow">工作流程</a>
+                <a class="btn" href="#spec">参数指标</a>
+              </div>
+            </div>
+            <aside class="heroCard">
+              <div class="media">
+                <img src="./img/hero-zhicheng.svg" alt="探伤小车示意图（占位）" />
+              </div>
+              <div class="meta">
+                <div class="metric">
+                  <b>模块化</b>
+                  <span>传感器/计算/存储可扩展</span>
+                </div>
+                <div class="metric">
+                  <b>可复核</b>
+                  <span>告警带证据，便于复检</span>
+                </div>
+                <div class="metric">
+                  <b>可验收</b>
+                  <span>指标清晰，测试可复现</span>
+                </div>
+                <div class="metric">
+                  <b>可迭代</b>
+                  <span>复核反馈驱动模型提升</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow">
+        <div class="container">
+          <h2>工作流程（更像“产品”而不是“实验”）</h2>
+          <p class="lead">把算法能力放进流程里讲，合作方更容易理解你们怎么交付、怎么验收。</p>
+          <div class="grid3">
+            <div class="card">
+              <h3>采集与质控</h3>
+              <p>稳定走行采集多源数据；对光照、振动、污染等进行在线质量监控与标记。</p>
+            </div>
+            <div class="card">
+              <h3>识别与定位</h3>
+              <p>对缺陷候选进行识别，输出置信度与证据，并映射到里程/相对距离等位置表达。</p>
+            </div>
+            <div class="card">
+              <h3>分级与报告</h3>
+              <p>按风险等级生成告警与台账，自动汇总巡检报告，支持回放复核与闭环追踪。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="deliver">
+        <div class="container">
+          <h2>可交付物（试点最关键）</h2>
+          <p class="lead">建议你们准备 1 份“样例报告”和 1 份“台账样例”，比赛与对外合作都非常加分。</p>
+          <div class="grid2">
+            <div class="card">
+              <h3>巡检报告（PDF/Word）</h3>
+              <p>线路信息、巡检里程、缺陷分布、典型缺陷证据、复核建议与风险提示。</p>
+              <div class="badgeRow">
+                <span class="badge">可验收</span>
+                <span class="badge">可归档</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>缺陷台账（Excel/JSON）</h3>
+              <p>缺陷 ID、位置、类型、等级、时间、证据路径、复核状态，便于长期追踪。</p>
+              <div class="badgeRow">
+                <span class="badge">可追溯</span>
+                <span class="badge">可统计</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>证据链与回放</h3>
+              <p>原始数据/关键帧/波形可回放，用于复核与复现，降低“黑箱”质疑。</p>
+              <div class="badgeRow">
+                <span class="badge">证据链</span>
+                <span class="badge">可复核</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>验收指标与测试集</h3>
+              <p>误报/漏报、定位精度、速度与稳定性等指标口径明确，支持复验与迭代。</p>
+              <div class="badgeRow">
+                <span class="badge">口径一致</span>
+                <span class="badge">可复现</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="spec">
+        <div class="container">
+          <h2>参数与指标（模板，可按你们真实数据替换）</h2>
+          <p class="lead">为了不显得“太挤”，这里保留关键项；真实对外版本建议再补一页详细规格书。</p>
+          <table class="table" aria-label="Specification table">
+            <thead>
+              <tr>
+                <th style="width:240px">指标</th>
+                <th>目标/当前值（请替换）</th>
+                <th>说明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>检测速度</td>
+                <td>___ km/h</td>
+                <td>给出可稳定检测速度区间</td>
+              </tr>
+              <tr>
+                <td>定位精度</td>
+                <td>± ___ cm</td>
+                <td>沿轨/横向可分别描述</td>
+              </tr>
+              <tr>
+                <td>最小可检缺陷</td>
+                <td>___ mm</td>
+                <td>说明适用缺陷类型与限制</td>
+              </tr>
+              <tr>
+                <td>误报率 / 漏报率</td>
+                <td>___ / ___</td>
+                <td>建议附测试集规模与场景</td>
+              </tr>
+              <tr>
+                <td>续航</td>
+                <td>___ h</td>
+                <td>持续/间歇巡检分别说明</td>
+              </tr>
+              <tr>
+                <td>部署时间</td>
+                <td>___ min</td>
+                <td>从到场到开始巡检</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div>上一页 <a href="./about.html">关于我们</a> · 下一页 <a href="./research.html">研究方向</a></div>
+          <div>提示：把“样例报告”做出来，商业感会立刻增强。</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
